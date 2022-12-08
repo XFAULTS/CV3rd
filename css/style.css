@@ -1,6 +1,15 @@
+html {
+    scrollbar-width: none;
+  }
+body::-webkit-scrollbar{
+    display: none;
+  }
+body {
+    -ms-overflow-style: none;
+  }
 h1 {  
     margin-top: 20%;
-    padding-bottom: 40%;
+    padding-bottom: 20%;
     padding-right: 20%;
     font-family: 'Sacramento', cursive; 
     font-size: 6rem;  
@@ -20,7 +29,13 @@ p{
     color: #40514E;
 }
 .navbar{
-    padding-bottom: 100px;
+    padding-bottom: 6rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
 }
 .navbar-brand{
     font-size: 2rem;
@@ -28,25 +43,79 @@ p{
 .btn{
     margin: 10px;
 }
+.btnb{
+    padding-left: 80px;
+}
 .top{
     background-color: #ffe599;
     padding: 5% 10%;
 }
 .pp{
-    margin-top: 30%;
+    padding-left: 70px;
     width: 80%;
 }
+.intro{
+    text-align: center;
+}
 .phone{
+    padding-left: 70px;
+    margin-top: 10%;
     width: 80%;
 }
 .snd{
+    padding-top: 5%;
     text-align: center;
 }
+.sndr{
+    margin: 50px auto;
+}
 .codeimg{
+    width: 15%;
     float: left;
+}
+.Webimg{
+    width: 15%;
+    float: right;
+}
+.webd{
+    text-align: right;
+    padding-top: 5%;
+    margin: 2% auto;
+    width: 50%;
 }
 .cp{
     text-align: left;
-    margin: 80px auto 0px;
+    padding-top: 5%;
+    margin: 70px auto 0px;
     width: 50%;
+}
+.pyimg{
+    float: left;
+    width: 15%;
+}
+.pyp{
+    text-align: left;
+    padding-top: 5%;
+    margin: 5% auto;
+    width: 50%;
+}
+.trrd{
+    padding-top: 5%;
+    text-align: center;
+    background-color: #ffe599;
+}
+.youtubesection{
+    padding-top: 5%;
+}
+.youp{
+    padding-top: 3%;
+    margin: 1% auto;
+    width: 50%;
+}
+.logo{
+    padding: 13% 0;
+    margin-bottom: 3%;
+}
+.logo:hover{
+    transform: scale(1.1);
 }
