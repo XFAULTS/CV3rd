@@ -119,3 +119,73 @@ p{
 .logo:hover{
     transform: scale(1.1);
 }
+.frth{
+    padding-top: 5%;
+    text-align: center;
+}
+.contpart{
+    margin-top: 5%;
+}
+
+       /* LINKEDIN */
+
+.linkedin{
+    padding-left: 30%;
+}
+.lkpara{
+    padding-top: 4%;
+    text-align: left;
+}
+.lkimg{
+    width: 15%;
+    float: left;
+}
+
+
+       /* GITHUB */
+
+
+
+.github{
+    padding-right: 30%;
+    padding-top: 6%;
+}
+.gitpara{
+    padding-top: 4%;
+    text-align: right;
+}
+ .gitimg{
+    width: 15%;
+    float: right;
+}
+
+       /* INSTAGRAM */
+
+.instagram{
+    padding-left: 30%;
+    padding-top: 6%;
+}
+
+.instapara{
+    padding-top: 4%;
+    text-align: left;
+    margin-bottom: 6%;
+}
+.instaimg{
+    width: 15%;
+    float: left;
+}
+.conlink{
+    text-decoration: none;
+}
+
+       /* BTM */
+
+.btm{
+    padding-left: 50%;
+    background-color: #ffe599;
+    padding-bottom: 1rem;
+}
+.copy{
+    padding-top: 8px;
+}
